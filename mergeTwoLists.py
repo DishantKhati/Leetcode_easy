@@ -10,3 +10,4 @@ class Solution:
 			root = ListNode(list2.val, None)
 			root.next = self.mergeTwoLists(list1,list2.next)
 		return root
+\
